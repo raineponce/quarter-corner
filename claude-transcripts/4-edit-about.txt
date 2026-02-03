@@ -1,0 +1,486 @@
+
+╭─── Claude Code v2.1.19 ──────────────────────────────────────────────────────╮
+│                                                    │ Tips for getting        │
+│                 Welcome back Raine!                │ started                 │
+│                                                    │ Run /init to create a … │
+│                       ▐▛███▜▌                      │ ─────────────────────── │
+│                      ▝▜█████▛▘                     │ Recent activity         │
+│                        ▘▘ ▝▝                       │ No recent activity      │
+│                                                    │                         │
+│ Sonnet 4.5 · Claude Pro · ponceraine23@gmail.com's │                         │
+│  Organization                                      │                         │
+│ ~\Desktop\school\2026 Spring\DIG4503 - low no cod… │                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+❯ /clear 
+  ⎿  (no content)
+
+❯ editing about.html                                                        
+                                                                            
+  Replace “how it all began” section text with:                             
+  - Heading: Our Story                                                      
+  - Body: Ava Yari opened Quarter Corner with a simple idea: make a place   
+  where comfort food and creative practice belong together. Ava grew up     
+  sketching in kitchen nooks and learning family recipes at the same table; 
+  she wanted to combine those two comforts into one welcoming space.        
+  (2nd paragraph) Quarter Corner is intentionally cozy — mismatched chairs, 
+  warm light, and a low hum of conversation — designed as a safe,           
+  unpretentious spot for anyone who wants to eat well and make things.      
+  Whether you’re a quick-sketch weekender or a late-night painter, Ava      
+  wanted the cafe to feel like a warm studio away from home.                
+                                                                            
+  Instead of the “our mission” section, have a section called “Fun Facts”   
+  with the following as bullet point list                                   
+  - Coin machines with art supplies                                         
+  We repurposed vintage coin-op machines that accept various coins (not     
+  just quarters) and dispense small art supplies like pencil leads,         
+  erasers, and paintbrushes.                                                
+                                                                            
+  - The art wall — a whole-wall gallery                                     
+  A single side of the cafe is a rotating, communal gallery where customers 
+  pin sketches, doodles, and notes — a living collage that changes daily.   
+                                                                            
+  - Bring (and share) your supplies                                         
+  Guests are encouraged to bring their own sketchbooks and tools; we also   
+  keep basic supplies on hand to borrow or purchase.                        
+                                                                            
+  - The art-only attic — a quiet studio upstairs                            
+  Upstairs is an art-only attic studio (no food allowed) with easels,       
+  daylight lamps, and bookable space for longer projects and workshops.     
+                                                                            
+  Image replacements                                                        
+  - founders.svg becomes quarter-jar.jpg                                    
+  - cafe-gallery.svg becomes art-wall.jpg                                   
+                                                                            
+
+● I'll help you edit the about.html file. Let me first read it to see the
+  current structure.
+
+● Read(about.html)
+  ⎿  Read 207 lines
+
+● Now I'll make the requested changes to about.html.
+
+● Update(about.html)
+  ⎿  Added 4 lines, removed 8 lines
+      45        <div class="container">
+      46          <div class="about-content">
+      47            <div class="about-text">
+      48 -            <h2>How It All Began</h2>                          
+      49 -            <p>Quarter Corner started in 2018 when two friends—
+         -a barista and a painter—dreamed of a space where               
+      50 -              creativity and coffee could coexist. They found a
+         - forgotten corner shop on Canvas Street and transformed        
+      51 -              it into what you see today.</p>                  
+      52 -            <p>The name "Quarter Corner" comes from our beloved
+         - corner location and the old quarter we found embedded in      
+      53 -              the original hardwood floor—now framed and hangin
+         -g by the entrance, a reminder that great things often          
+      54 -              start small.</p>                                 
+      48 +            <h2>Our Story</h2>                                 
+      49 +            <p>Ava Yari opened Quarter Corner with a simple ide
+         +a: make a place where comfort food and creative practice belong
+         + together. Ava grew up sketching in kitchen nooks and learning 
+         +family recipes at the same table; she wanted to combine those t
+         +wo comforts into one welcoming space.</p>                      
+      50 +            <p>Quarter Corner is intentionally cozy — mismatche
+         +d chairs, warm light, and a low hum of conversation — designed 
+         +as a safe, unpretentious spot for anyone who wants to eat well 
+         +and make things. Whether you're a quick-sketch weekender or a l
+         +ate-night painter, Ava wanted the cafe to feel like a warm stud
+         +io away from home.</p>                                         
+      51            </div>
+      52            <div class="image-placeholder">
+      57 -            <img src="images/founders.svg" alt="Cafe founders i
+         -n front of the original storefront">                           
+      53 +            <img src="images/quarter-jar.jpg" alt="Cafe founder
+         +s in front of the original storefront">                        
+      54            </div>
+      55          </div>
+      56        </div>
+
+● Update(about.html)
+  ⎿  Added 8 lines, removed 7 lines
+      61        <div class="container">
+      62          <div class="about-content reverse">
+      63            <div class="about-text">
+      64 -            <h2>Our Mission</h2>                               
+      65 -            <p>We believe that creativity deserves a home—a pla
+         -ce where ideas can percolate as slowly as a perfect            
+      66 -              pour-over. Quarter Corner exists to nourish both 
+         -body and imagination.</p>                                      
+      67 -            <p>Every detail in our cafe is intentional: the nat
+         -ural light that floods our workspace tables, the rotating      
+      68 -              gallery walls featuring local artists, and the ca
+         -refully curated playlist that sets the mood without            
+      69 -              overwhelming conversation.</p>                   
+      64 +            <h2>Fun Facts</h2>                                 
+      65 +            <ul>                                               
+      66 +              <li><strong>Coin machines with art supplies</stro
+         +ng> — We repurposed vintage coin-op machines that accept variou
+         +s coins (not just quarters) and dispense small art supplies lik
+         +e pencil leads, erasers, and paintbrushes.</li>                
+      67 +              <li><strong>The art wall — a whole-wall gallery</
+         +strong> — A single side of the cafe is a rotating, communal gal
+         +lery where customers pin sketches, doodles, and notes — a livin
+         +g collage that changes daily.</li>                             
+      68 +              <li><strong>Bring (and share) your supplies</stro
+         +ng> — Guests are encouraged to bring their own sketchbooks and 
+         +tools; we also keep basic supplies on hand to borrow or purchas
+         +e.</li>                                                        
+      69 +              <li><strong>The art-only attic — a quiet studio u
+         +pstairs</strong> — Upstairs is an art-only attic studio (no foo
+         +d allowed) with easels, daylight lamps, and bookable space for 
+         +longer projects and workshops.</li>                            
+      70 +            </ul>                                              
+      71            </div>
+      72            <div class="image-placeholder">
+      72 -            <img src="images/cafe-gallery.svg" alt="Art gallery
+         - wall inside the cafe">                                        
+      73 +            <img src="images/art-wall.jpg" alt="Art gallery wal
+         +l inside the cafe">                                            
+      74            </div>
+      75          </div>
+      76        </div>
+
+● I've successfully updated about.html with all the requested changes:
+
+  "Our Story" section:
+  - Changed heading from "How It All Began" to "Our Story"
+  - Replaced content with the new two-paragraph story about Ava Yari
+  - Changed image from founders.svg to quarter-jar.jpg
+
+  "Fun Facts" section:
+  - Replaced "Our Mission" section with "Fun Facts"
+  - Added bullet list with all 4 fun facts (coin machines, art wall, supplies,
+  attic studio)
+  - Changed image from cafe-gallery.svg to art-wall.jpg
+
+  The edits maintain the existing HTML structure and styling while incorporating
+   your new content.
+
+✻ Baked for 50s
+╭─── Claude Code v2.1.19 ──────────────────────────────────────────────────────╮
+│                                                    │ Tips for getting        │
+│                Welcome back Raine!                 │ started                 │
+│                                                    │ Run /init to create a … │
+│                                                    │                         │
+│                      ▐▛███▜▌                       │ ─────────────────────── │
+│                     ▝▜█████▛▘                      │ Recent activity         │
+│                       ▘▘ ▝▝                        │ No recent activity      │
+│       Sonnet 4.5 · Claude Pro ·                    │                         │
+│       ponceraine23@gmail.com's Organization        │                         │
+│   ~\Desktop\school\2026 Spring\DIG4503 - low no    │                         │
+│   cod…                                             │                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+❯ /clear 
+  ⎿  (no content)
+
+❯ editing about.html                                                        
+                                                                            
+  Replace “how it all began” section text with:                             
+  - Heading: Our Story                                                      
+  - Body: Ava Yari opened Quarter Corner with a simple idea: make a place   
+  where comfort food and creative practice belong together. Ava grew up     
+  sketching in kitchen nooks and learning family recipes at the same table; 
+  she wanted to combine those two comforts into one welcoming space.        
+  (2nd paragraph) Quarter Corner is intentionally cozy — mismatched chairs, 
+  warm light, and a low hum of conversation — designed as a safe,           
+  unpretentious spot for anyone who wants to eat well and make things.      
+  Whether you’re a quick-sketch weekender or a late-night painter, Ava      
+  wanted the cafe to feel like a warm studio away from home.                
+                                                                            
+  Instead of the “our mission” section, have a section called “Fun Facts”   
+  with the following as bullet point list                                   
+  - Coin machines with art supplies                                         
+  We repurposed vintage coin-op machines that accept various coins (not     
+  just quarters) and dispense small art supplies like pencil leads,         
+  erasers, and paintbrushes.                                                
+                                                                            
+  - The art wall — a whole-wall gallery                                     
+  A single side of the cafe is a rotating, communal gallery where customers 
+  pin sketches, doodles, and notes — a living collage that changes daily.   
+                                                                            
+  - Bring (and share) your supplies                                         
+  Guests are encouraged to bring their own sketchbooks and tools; we also   
+  keep basic supplies on hand to borrow or purchase.                        
+                                                                            
+  - The art-only attic — a quiet studio upstairs                            
+  Upstairs is an art-only attic studio (no food allowed) with easels,       
+  daylight lamps, and bookable space for longer projects and workshops.     
+                                                                            
+  Image replacements                                                        
+  - founders.svg becomes quarter-jar.jpg                                    
+  - cafe-gallery.svg becomes art-wall.jpg                                   
+                                                                            
+
+● I'll help you edit the about.html file. Let me first read it to see the
+  current structure.
+
+● Read(about.html)
+  ⎿  Read 207 lines
+
+● Now I'll make the requested changes to about.html.
+
+● Update(about.html)
+  ⎿  Added 4 lines, removed 8 lines
+      45        <div class="container">
+      46          <div class="about-content">
+      47            <div class="about-text">
+      48 -            <h2>How It All Began</h2>                          
+      49 -            <p>Quarter Corner started in 2018 when two friends—
+         -a barista and a painter—dreamed of a space where               
+      50 -              creativity and coffee could coexist. They found a
+         - forgotten corner shop on Canvas Street and transformed        
+      51 -              it into what you see today.</p>                  
+      52 -            <p>The name "Quarter Corner" comes from our beloved
+         - corner location and the old quarter we found embedded in      
+      53 -              the original hardwood floor—now framed and hangin
+         -g by the entrance, a reminder that great things often          
+      54 -              start small.</p>                                 
+      48 +            <h2>Our Story</h2>                                 
+      49 +            <p>Ava Yari opened Quarter Corner with a simple ide
+         +a: make a place where comfort food and creative practice belong
+         + together. Ava grew up sketching in kitchen nooks and learning 
+         +family recipes at the same table; she wanted to combine those t
+         +wo comforts into one welcoming space.</p>                      
+      50 +            <p>Quarter Corner is intentionally cozy — mismatche
+         +d chairs, warm light, and a low hum of conversation — designed 
+         +as a safe, unpretentious spot for anyone who wants to eat well 
+         +and make things. Whether you're a quick-sketch weekender or a l
+         +ate-night painter, Ava wanted the cafe to feel like a warm stud
+         +io away from home.</p>                                         
+      51            </div>
+      52            <div class="image-placeholder">
+      57 -            <img src="images/founders.svg" alt="Cafe founders i
+         -n front of the original storefront">                           
+      53 +            <img src="images/quarter-jar.jpg" alt="Cafe founder
+         +s in front of the original storefront">                        
+      54            </div>
+      55          </div>
+      56        </div>
+
+● Update(about.html)
+  ⎿  Added 8 lines, removed 7 lines
+      61        <div class="container">
+      62          <div class="about-content reverse">
+      63            <div class="about-text">
+      64 -            <h2>Our Mission</h2>                               
+      65 -            <p>We believe that creativity deserves a home—a pla
+         -ce where ideas can percolate as slowly as a perfect            
+      66 -              pour-over. Quarter Corner exists to nourish both 
+         -body and imagination.</p>                                      
+      67 -            <p>Every detail in our cafe is intentional: the nat
+         -ural light that floods our workspace tables, the rotating      
+      68 -              gallery walls featuring local artists, and the ca
+         -refully curated playlist that sets the mood without            
+      69 -              overwhelming conversation.</p>                   
+      64 +            <h2>Fun Facts</h2>                                 
+      65 +            <ul>                                               
+      66 +              <li><strong>Coin machines with art supplies</stro
+         +ng> — We repurposed vintage coin-op machines that accept variou
+         +s coins (not just quarters) and dispense small art supplies lik
+         +e pencil leads, erasers, and paintbrushes.</li>                
+      67 +              <li><strong>The art wall — a whole-wall gallery</
+         +strong> — A single side of the cafe is a rotating, communal gal
+         +lery where customers pin sketches, doodles, and notes — a livin
+         +g collage that changes daily.</li>                             
+      68 +              <li><strong>Bring (and share) your supplies</stro
+         +ng> — Guests are encouraged to bring their own sketchbooks and 
+         +tools; we also keep basic supplies on hand to borrow or purchas
+         +e.</li>                                                        
+      69 +              <li><strong>The art-only attic — a quiet studio u
+         +pstairs</strong> — Upstairs is an art-only attic studio (no foo
+         +d allowed) with easels, daylight lamps, and bookable space for 
+         +longer projects and workshops.</li>                            
+      70 +            </ul>                                              
+      71            </div>
+      72            <div class="image-placeholder">
+      72 -            <img src="images/cafe-gallery.svg" alt="Art gallery
+         - wall inside the cafe">                                        
+      73 +            <img src="images/art-wall.jpg" alt="Art gallery wal
+         +l inside the cafe">                                            
+      74            </div>
+      75          </div>
+      76        </div>
+
+● I've successfully updated about.html with all the requested changes:
+
+  "Our Story" section:
+  - Changed heading from "How It All Began" to "Our Story"
+  - Replaced content with the new two-paragraph story about Ava Yari
+  - Changed image from founders.svg to quarter-jar.jpg
+
+  "Fun Facts" section:
+  - Replaced "Our Mission" section with "Fun Facts"
+  - Added bullet list with all 4 fun facts (coin machines, art wall, supplies,
+  attic studio)
+  - Changed image from cafe-gallery.svg to art-wall.jpg
+
+  The edits maintain the existing HTML structure and styling while incorporating
+   your new content.
+
+✻ Baked for 50s
+╭─── Claude Code v2.1.19 ──────────────────────────────────────────────────────╮
+│                                                    │ Tips for getting        │
+│                Welcome back Raine!                 │ started                 │
+│                                                    │ Run /init to create a … │
+│                                                    │                         │
+│                      ▐▛███▜▌                       │ ─────────────────────── │
+│                     ▝▜█████▛▘                      │ Recent activity         │
+│                       ▘▘ ▝▝                        │ No recent activity      │
+│       Sonnet 4.5 · Claude Pro ·                    │                         │
+│       ponceraine23@gmail.com's Organization        │                         │
+│   ~\Desktop\school\2026 Spring\DIG4503 - low no    │                         │
+│   cod…                                             │                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+❯ /clear 
+  ⎿  (no content)
+
+❯ editing about.html                                                        
+                                                                            
+  Replace “how it all began” section text with:                             
+  - Heading: Our Story                                                      
+  - Body: Ava Yari opened Quarter Corner with a simple idea: make a place   
+  where comfort food and creative practice belong together. Ava grew up     
+  sketching in kitchen nooks and learning family recipes at the same table; 
+  she wanted to combine those two comforts into one welcoming space.        
+  (2nd paragraph) Quarter Corner is intentionally cozy — mismatched chairs, 
+  warm light, and a low hum of conversation — designed as a safe,           
+  unpretentious spot for anyone who wants to eat well and make things.      
+  Whether you’re a quick-sketch weekender or a late-night painter, Ava      
+  wanted the cafe to feel like a warm studio away from home.                
+                                                                            
+  Instead of the “our mission” section, have a section called “Fun Facts”   
+  with the following as bullet point list                                   
+  - Coin machines with art supplies                                         
+  We repurposed vintage coin-op machines that accept various coins (not     
+  just quarters) and dispense small art supplies like pencil leads,         
+  erasers, and paintbrushes.                                                
+                                                                            
+  - The art wall — a whole-wall gallery                                     
+  A single side of the cafe is a rotating, communal gallery where customers 
+  pin sketches, doodles, and notes — a living collage that changes daily.   
+                                                                            
+  - Bring (and share) your supplies                                         
+  Guests are encouraged to bring their own sketchbooks and tools; we also   
+  keep basic supplies on hand to borrow or purchase.                        
+                                                                            
+  - The art-only attic — a quiet studio upstairs                            
+  Upstairs is an art-only attic studio (no food allowed) with easels,       
+  daylight lamps, and bookable space for longer projects and workshops.     
+                                                                            
+  Image replacements                                                        
+  - founders.svg becomes quarter-jar.jpg                                    
+  - cafe-gallery.svg becomes art-wall.jpg                                   
+                                                                            
+
+● I'll help you edit the about.html file. Let me first read it to see the
+  current structure.
+
+● Read(about.html)
+  ⎿  Read 207 lines
+
+● Now I'll make the requested changes to about.html.
+
+● Update(about.html)
+  ⎿  Added 4 lines, removed 8 lines
+      45        <div class="container">
+      46          <div class="about-content">
+      47            <div class="about-text">
+      48 -            <h2>How It All Began</h2>                          
+      49 -            <p>Quarter Corner started in 2018 when two friends—
+         -a barista and a painter—dreamed of a space where               
+      50 -              creativity and coffee could coexist. They found a
+         - forgotten corner shop on Canvas Street and transformed        
+      51 -              it into what you see today.</p>                  
+      52 -            <p>The name "Quarter Corner" comes from our beloved
+         - corner location and the old quarter we found embedded in      
+      53 -              the original hardwood floor—now framed and hangin
+         -g by the entrance, a reminder that great things often          
+      54 -              start small.</p>                                 
+      48 +            <h2>Our Story</h2>                                 
+      49 +            <p>Ava Yari opened Quarter Corner with a simple ide
+         +a: make a place where comfort food and creative practice belong
+         + together. Ava grew up sketching in kitchen nooks and learning 
+         +family recipes at the same table; she wanted to combine those t
+         +wo comforts into one welcoming space.</p>                      
+      50 +            <p>Quarter Corner is intentionally cozy — mismatche
+         +d chairs, warm light, and a low hum of conversation — designed 
+         +as a safe, unpretentious spot for anyone who wants to eat well 
+         +and make things. Whether you're a quick-sketch weekender or a l
+         +ate-night painter, Ava wanted the cafe to feel like a warm stud
+         +io away from home.</p>                                         
+      51            </div>
+      52            <div class="image-placeholder">
+      57 -            <img src="images/founders.svg" alt="Cafe founders i
+         -n front of the original storefront">                           
+      53 +            <img src="images/quarter-jar.jpg" alt="Cafe founder
+         +s in front of the original storefront">                        
+      54            </div>
+      55          </div>
+      56        </div>
+
+● Update(about.html)
+  ⎿  Added 8 lines, removed 7 lines
+      61        <div class="container">
+      62          <div class="about-content reverse">
+      63            <div class="about-text">
+      64 -            <h2>Our Mission</h2>                               
+      65 -            <p>We believe that creativity deserves a home—a pla
+         -ce where ideas can percolate as slowly as a perfect            
+      66 -              pour-over. Quarter Corner exists to nourish both 
+         -body and imagination.</p>                                      
+      67 -            <p>Every detail in our cafe is intentional: the nat
+         -ural light that floods our workspace tables, the rotating      
+      68 -              gallery walls featuring local artists, and the ca
+         -refully curated playlist that sets the mood without            
+      69 -              overwhelming conversation.</p>                   
+      64 +            <h2>Fun Facts</h2>                                 
+      65 +            <ul>                                               
+      66 +              <li><strong>Coin machines with art supplies</stro
+         +ng> — We repurposed vintage coin-op machines that accept variou
+         +s coins (not just quarters) and dispense small art supplies lik
+         +e pencil leads, erasers, and paintbrushes.</li>                
+      67 +              <li><strong>The art wall — a whole-wall gallery</
+         +strong> — A single side of the cafe is a rotating, communal gal
+         +lery where customers pin sketches, doodles, and notes — a livin
+         +g collage that changes daily.</li>                             
+      68 +              <li><strong>Bring (and share) your supplies</stro
+         +ng> — Guests are encouraged to bring their own sketchbooks and 
+         +tools; we also keep basic supplies on hand to borrow or purchas
+         +e.</li>                                                        
+      69 +              <li><strong>The art-only attic — a quiet studio u
+         +pstairs</strong> — Upstairs is an art-only attic studio (no foo
+         +d allowed) with easels, daylight lamps, and bookable space for 
+         +longer projects and workshops.</li>                            
+      70 +            </ul>                                              
+      71            </div>
+      72            <div class="image-placeholder">
+      72 -            <img src="images/cafe-gallery.svg" alt="Art gallery
+         - wall inside the cafe">                                        
+      73 +            <img src="images/art-wall.jpg" alt="Art gallery wal
+         +l inside the cafe">                                            
+      74            </div>
+      75          </div>
+      76        </div>
+
+● I've successfully updated about.html with all the requested changes:
+
+  "Our Story" section:
+  - Changed heading from "How It All Began" to "Our Story"
+  - Replaced content with the new two-paragraph story about Ava Yari
+  - Changed image from founders.svg to quarter-jar.jpg
+
+  "Fun Facts" section:
+  - Replaced "Our Mission" section with "Fun Facts"
+  - Added bullet list with all 4 fun facts (coin machines, art wall, supplies,
+  attic studio)
+  - Changed image from cafe-gallery.svg to art-wall.jpg
+
+  The edits maintain the existing HTML structure and styling while incorporating
+   your new content.
+
+✻ Baked for 50s

@@ -1,0 +1,660 @@
+
+╭─── Claude Code v2.1.19 ──────────────────────────────────────────────────────╮
+│                                                    │ Tips for getting        │
+│                 Welcome back Raine!                │ started                 │
+│                                                    │ Run /init to create a … │
+│                       ▐▛███▜▌                      │ ─────────────────────── │
+│                      ▝▜█████▛▘                     │ Recent activity         │
+│                        ▘▘ ▝▝                       │ No recent activity      │
+│                                                    │                         │
+│ Opus 4.5 · Claude Pro · ponceraine23@gmail.com's   │                         │
+│ Organization                                       │                         │
+│ ~\Desktop\school\2026 Spring\DIG4503 - low no cod… │                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+❯ /clear 
+  ⎿  (no content)
+
+❯ We’ll be editing the index.html file in this directory. Please make the   
+  following edits:                                                          
+                                                                            
+  Before the “what we offer” section, add a section for this text:          
+  Heading: “What’s Quarter Corner?”                                         
+  Body: “Quarter Corner is an art cafe where warm, comforting food meets    
+  quiet creativity. Pull up a patchwork armchair, order something cozy, and 
+  sketch, doodle, or paint on our found furniture tables — or at a proper   
+  easel if you need one. We serve honest, feel-good bites and drinks in a   
+  relaxed, friendly space designed to inspire.”                             
+                                                                            
+  Image replacements:                                                       
+  - coffee-latte.svg becomes latte.jpg                                      
+  - pastries.svg becomes muffins.jpg                                        
+  - art-supplies.svg becomes art-supply-table.jpg                           
+  - cafe-interior.svg becomes cozy-space.jpg                                
+                                                                            
+  Footer:                                                                   
+  Across all pages - change business address to “777 Sweet Street, Avia, RY 
+  23456”                                                                    
+
+● Let me read the index.html file first.
+
+● Read(index.html)
+  ⎿  Read 159 lines
+
+● I'll make all the edits to index.html. Let me also check for other HTML pages
+  that need the footer update.
+
+● Update(index.html)
+  ⎿  Added 8 lines
+      38        </div>
+      39      </section>
+      40  
+      41 +    <!-- What's Quarter Corner Section -->                     
+      42 +    <section>                                                  
+      43 +      <div class="container">                                  
+      44 +        <h2 style="text-align: center; font-size: 2rem; margin-
+         +bottom: 0.5rem;">What's Quarter Corner?</h2>                   
+      45 +        <p style="text-align: center; color: var(--brown); marg
+         +in-bottom: 2rem; max-width: 800px; margin-left: auto; margin-ri
+         +ght: auto;">Quarter Corner is an art cafe where warm, comfortin
+         +g food meets quiet creativity. Pull up a patchwork armchair, or
+         +der something cozy, and sketch, doodle, or paint on our found f
+         +urniture tables — or at a proper easel if you need one. We serv
+         +e honest, feel-good bites and drinks in a relaxed, friendly spa
+         +ce designed to inspire.</p>                                    
+      46 +      </div>                                                   
+      47 +    </section>                                                 
+      48 +                                                               
+      49      <!-- Featured Section -->
+      50      <section>
+      51        <div class="container">
+
+● Update(index.html)
+  ⎿  Added 1 line, removed 1 line
+      55          <div class="featured">
+      56            <div class="featured-card">
+      57              <div class="image-placeholder">
+      58 -              <img src="images/coffee-latte.svg" alt="Artisan l
+         -atte with latte art">                                          
+      58 +              <img src="images/latte.jpg" alt="Artisan latte wi
+         +th latte art">                                                 
+      59              </div>
+      60              <div class="featured-card-content">
+      61                <h3>Artisan Coffee</h3>
+
+● Update(index.html)
+  ⎿  Added 1 line, removed 1 line
+      65  
+      66            <div class="featured-card">
+      67              <div class="image-placeholder">
+      68 -              <img src="images/pastries.svg" alt="Fresh baked p
+         -astries display">                                              
+      68 +              <img src="images/muffins.jpg" alt="Fresh baked pa
+         +stries display">                                               
+      69              </div>
+      70              <div class="featured-card-content">
+      71                <h3>Fresh Pastries</h3>
+
+● Update(index.html)
+  ⎿  Added 1 line, removed 1 line
+      75  
+      76            <div class="featured-card">
+      77              <div class="image-placeholder">
+      78 -              <img src="images/art-supplies.svg" alt="Art suppl
+         -ies and creative workspace">                                   
+      78 +              <img src="images/art-supply-table.jpg" alt="Art s
+         +upplies and creative workspace">                               
+      79              </div>
+      80              <div class="featured-card-content">
+      81                <h3>Creative Space</h3>
+
+● Update(index.html)
+  ⎿  Added 1 line, removed 1 line
+      91        <div class="container">
+      92          <div class="about-preview">
+      93            <div class="image-placeholder">
+      94 -            <img src="images/cafe-interior.svg" alt="Cozy cafe 
+         -interior with artwork on walls">                               
+      94 +            <img src="images/cozy-space.jpg" alt="Cozy cafe int
+         +erior with artwork on walls">                                  
+      95            </div>
+      96            <div>
+      97              <h2>A Corner for Every Creative</h2>
+
+● Update(index.html)
+  ⎿  Added 2 lines, removed 2 lines
+      142          </div>
+      143          <div class="footer-section">
+      144            <h3>Contact</h3>
+      145 -          <p>123 Canvas Street</p>                            
+      146 -          <p>Artville, CA 90210</p>                           
+      145 +          <p>777 Sweet Street</p>                             
+      146 +          <p>Avia, RY 23456</p>                               
+      147            <p>hello@quartercorner.com</p>
+      148          </div>
+      149        </div>
+
+● Search(pattern: "*.html")
+  ⎿  Found 4 files (ctrl+o to expand)
+
+● Now let me update the footer address in the other pages.
+
+● Read(menu.html)
+  ⎿  Read 243 lines
+
+● Read(about.html)
+  ⎿  Read 190 lines
+
+● Read(contact.html)
+  ⎿  Read 207 lines
+
+● Now I'll update the footer addresses in all three files, plus the contact info
+   section in contact.html.
+
+● Update(menu.html)
+  ⎿  Added 2 lines, removed 2 lines
+      220          </div>
+      221          <div class="footer-section">
+      222            <h3>Contact</h3>
+      223 -          <p>123 Canvas Street</p>                            
+      224 -          <p>Artville, CA 90210</p>                           
+      223 +          <p>777 Sweet Street</p>                             
+      224 +          <p>Avia, RY 23456</p>                               
+      225            <p>hello@quartercorner.com</p>
+      226          </div>
+      227        </div>
+
+● Update(about.html)
+  ⎿  Added 2 lines, removed 2 lines
+      167          </div>
+      168          <div class="footer-section">
+      169            <h3>Contact</h3>
+      170 -          <p>123 Canvas Street</p>                            
+      171 -          <p>Artville, CA 90210</p>                           
+      170 +          <p>777 Sweet Street</p>                             
+      171 +          <p>Avia, RY 23456</p>                               
+      172            <p>hello@quartercorner.com</p>
+      173          </div>
+      174        </div>
+
+● Update(contact.html)
+  ⎿  Added 1 line, removed 1 line
+      49                <div class="contact-icon">&#128205;</div>
+      50                <div>
+      51                  <h3>Address</h3>
+      52 -                <p>123 Canvas Street<br>Artville, CA 90210</p> 
+      52 +                <p>777 Sweet Street<br>Avia, RY 23456</p>      
+      53                </div>
+      54              </div>
+      55  
+
+● Update(contact.html)
+  ⎿  Added 2 lines, removed 2 lines
+      184          </div>
+      185          <div class="footer-section">
+      186            <h3>Contact</h3>
+      187 -          <p>123 Canvas Street</p>                            
+      188 -          <p>Artville, CA 90210</p>                           
+      187 +          <p>777 Sweet Street</p>                             
+      188 +          <p>Avia, RY 23456</p>                               
+      189            <p>hello@quartercorner.com</p>
+      190          </div>
+      191        </div>
+
+● Done. Here's a summary of all the changes made:
+
+  index.html:
+  - Added new "What's Quarter Corner?" section before "What We Offer"
+  - Changed coffee-latte.svg to latte.jpg
+  - Changed pastries.svg to muffins.jpg
+  - Changed art-supplies.svg to art-supply-table.jpg
+  - Changed cafe-interior.svg to cozy-space.jpg
+  - Updated footer address to "777 Sweet Street, Avia, RY 23456"
+
+  menu.html, about.html, contact.html:
+  - Updated footer address to "777 Sweet Street, Avia, RY 23456"
+
+  contact.html (additional):
+  - Also updated the address in the "Visit Us" contact info section
+
+✻ Worked for 59s
+╭─── Claude Code v2.1.19 ──────────────────────────────────────────────────────╮
+│                                                    │ Tips for getting        │
+│                Welcome back Raine!                 │ started                 │
+│                                                    │ Run /init to create a … │
+│                                                    │                         │
+│                      ▐▛███▜▌                       │ ─────────────────────── │
+│                     ▝▜█████▛▘                      │ Recent activity         │
+│                       ▘▘ ▝▝                        │ No recent activity      │
+│ Opus 4.5 · Claude Pro · ponceraine23@gmail.com's   │                         │
+│ Organization                                       │                         │
+│  ~\Desktop\school\2026 Spring\DIG4503 - low no     │                         │
+│  cod…                                              │                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+❯ /clear 
+  ⎿  (no content)
+
+❯ We’ll be editing the index.html file in this directory. Please make the   
+  following edits:                                                          
+                                                                            
+  Before the “what we offer” section, add a section for this text:          
+  Heading: “What’s Quarter Corner?”                                         
+  Body: “Quarter Corner is an art cafe where warm, comforting food meets    
+  quiet creativity. Pull up a patchwork armchair, order something cozy, and 
+  sketch, doodle, or paint on our found furniture tables — or at a proper   
+  easel if you need one. We serve honest, feel-good bites and drinks in a   
+  relaxed, friendly space designed to inspire.”                             
+                                                                            
+  Image replacements:                                                       
+  - coffee-latte.svg becomes latte.jpg                                      
+  - pastries.svg becomes muffins.jpg                                        
+  - art-supplies.svg becomes art-supply-table.jpg                           
+  - cafe-interior.svg becomes cozy-space.jpg                                
+                                                                            
+  Footer:                                                                   
+  Across all pages - change business address to “777 Sweet Street, Avia, RY 
+  23456”                                                                    
+
+● Let me read the index.html file first.
+
+● Read(index.html)
+  ⎿  Read 159 lines
+
+● I'll make all the edits to index.html. Let me also check for other HTML pages
+  that need the footer update.
+
+● Update(index.html)
+  ⎿  Added 8 lines
+      38        </div>
+      39      </section>
+      40  
+      41 +    <!-- What's Quarter Corner Section -->                     
+      42 +    <section>                                                  
+      43 +      <div class="container">                                  
+      44 +        <h2 style="text-align: center; font-size: 2rem; margin-
+         +bottom: 0.5rem;">What's Quarter Corner?</h2>                   
+      45 +        <p style="text-align: center; color: var(--brown); marg
+         +in-bottom: 2rem; max-width: 800px; margin-left: auto; margin-ri
+         +ght: auto;">Quarter Corner is an art cafe where warm, comfortin
+         +g food meets quiet creativity. Pull up a patchwork armchair, or
+         +der something cozy, and sketch, doodle, or paint on our found f
+         +urniture tables — or at a proper easel if you need one. We serv
+         +e honest, feel-good bites and drinks in a relaxed, friendly spa
+         +ce designed to inspire.</p>                                    
+      46 +      </div>                                                   
+      47 +    </section>                                                 
+      48 +                                                               
+      49      <!-- Featured Section -->
+      50      <section>
+      51        <div class="container">
+
+● Update(index.html)
+  ⎿  Added 1 line, removed 1 line
+      55          <div class="featured">
+      56            <div class="featured-card">
+      57              <div class="image-placeholder">
+      58 -              <img src="images/coffee-latte.svg" alt="Artisan l
+         -atte with latte art">                                          
+      58 +              <img src="images/latte.jpg" alt="Artisan latte wi
+         +th latte art">                                                 
+      59              </div>
+      60              <div class="featured-card-content">
+      61                <h3>Artisan Coffee</h3>
+
+● Update(index.html)
+  ⎿  Added 1 line, removed 1 line
+      65  
+      66            <div class="featured-card">
+      67              <div class="image-placeholder">
+      68 -              <img src="images/pastries.svg" alt="Fresh baked p
+         -astries display">                                              
+      68 +              <img src="images/muffins.jpg" alt="Fresh baked pa
+         +stries display">                                               
+      69              </div>
+      70              <div class="featured-card-content">
+      71                <h3>Fresh Pastries</h3>
+
+● Update(index.html)
+  ⎿  Added 1 line, removed 1 line
+      75  
+      76            <div class="featured-card">
+      77              <div class="image-placeholder">
+      78 -              <img src="images/art-supplies.svg" alt="Art suppl
+         -ies and creative workspace">                                   
+      78 +              <img src="images/art-supply-table.jpg" alt="Art s
+         +upplies and creative workspace">                               
+      79              </div>
+      80              <div class="featured-card-content">
+      81                <h3>Creative Space</h3>
+
+● Update(index.html)
+  ⎿  Added 1 line, removed 1 line
+      91        <div class="container">
+      92          <div class="about-preview">
+      93            <div class="image-placeholder">
+      94 -            <img src="images/cafe-interior.svg" alt="Cozy cafe 
+         -interior with artwork on walls">                               
+      94 +            <img src="images/cozy-space.jpg" alt="Cozy cafe int
+         +erior with artwork on walls">                                  
+      95            </div>
+      96            <div>
+      97              <h2>A Corner for Every Creative</h2>
+
+● Update(index.html)
+  ⎿  Added 2 lines, removed 2 lines
+      142          </div>
+      143          <div class="footer-section">
+      144            <h3>Contact</h3>
+      145 -          <p>123 Canvas Street</p>                            
+      146 -          <p>Artville, CA 90210</p>                           
+      145 +          <p>777 Sweet Street</p>                             
+      146 +          <p>Avia, RY 23456</p>                               
+      147            <p>hello@quartercorner.com</p>
+      148          </div>
+      149        </div>
+
+● Search(pattern: "*.html")
+  ⎿  Found 4 files (ctrl+o to expand)
+
+● Now let me update the footer address in the other pages.
+
+● Read(menu.html)
+  ⎿  Read 243 lines
+
+● Read(about.html)
+  ⎿  Read 190 lines
+
+● Read(contact.html)
+  ⎿  Read 207 lines
+
+● Now I'll update the footer addresses in all three files, plus the contact info
+   section in contact.html.
+
+● Update(menu.html)
+  ⎿  Added 2 lines, removed 2 lines
+      220          </div>
+      221          <div class="footer-section">
+      222            <h3>Contact</h3>
+      223 -          <p>123 Canvas Street</p>                            
+      224 -          <p>Artville, CA 90210</p>                           
+      223 +          <p>777 Sweet Street</p>                             
+      224 +          <p>Avia, RY 23456</p>                               
+      225            <p>hello@quartercorner.com</p>
+      226          </div>
+      227        </div>
+
+● Update(about.html)
+  ⎿  Added 2 lines, removed 2 lines
+      167          </div>
+      168          <div class="footer-section">
+      169            <h3>Contact</h3>
+      170 -          <p>123 Canvas Street</p>                            
+      171 -          <p>Artville, CA 90210</p>                           
+      170 +          <p>777 Sweet Street</p>                             
+      171 +          <p>Avia, RY 23456</p>                               
+      172            <p>hello@quartercorner.com</p>
+      173          </div>
+      174        </div>
+
+● Update(contact.html)
+  ⎿  Added 1 line, removed 1 line
+      49                <div class="contact-icon">&#128205;</div>
+      50                <div>
+      51                  <h3>Address</h3>
+      52 -                <p>123 Canvas Street<br>Artville, CA 90210</p> 
+      52 +                <p>777 Sweet Street<br>Avia, RY 23456</p>      
+      53                </div>
+      54              </div>
+      55  
+
+● Update(contact.html)
+  ⎿  Added 2 lines, removed 2 lines
+      184          </div>
+      185          <div class="footer-section">
+      186            <h3>Contact</h3>
+      187 -          <p>123 Canvas Street</p>                            
+      188 -          <p>Artville, CA 90210</p>                           
+      187 +          <p>777 Sweet Street</p>                             
+      188 +          <p>Avia, RY 23456</p>                               
+      189            <p>hello@quartercorner.com</p>
+      190          </div>
+      191        </div>
+
+● Done. Here's a summary of all the changes made:
+
+  index.html:
+  - Added new "What's Quarter Corner?" section before "What We Offer"
+  - Changed coffee-latte.svg to latte.jpg
+  - Changed pastries.svg to muffins.jpg
+  - Changed art-supplies.svg to art-supply-table.jpg
+  - Changed cafe-interior.svg to cozy-space.jpg
+  - Updated footer address to "777 Sweet Street, Avia, RY 23456"
+
+  menu.html, about.html, contact.html:
+  - Updated footer address to "777 Sweet Street, Avia, RY 23456"
+
+  contact.html (additional):
+  - Also updated the address in the "Visit Us" contact info section
+
+✻ Worked for 59s
+╭─── Claude Code v2.1.19 ──────────────────────────────────────────────────────╮
+│                                                    │ Tips for getting        │
+│                Welcome back Raine!                 │ started                 │
+│                                                    │ Run /init to create a … │
+│                                                    │                         │
+│                      ▐▛███▜▌                       │ ─────────────────────── │
+│                     ▝▜█████▛▘                      │ Recent activity         │
+│                       ▘▘ ▝▝                        │ No recent activity      │
+│ Opus 4.5 · Claude Pro · ponceraine23@gmail.com's   │                         │
+│ Organization                                       │                         │
+│  ~\Desktop\school\2026 Spring\DIG4503 - low no     │                         │
+│  cod…                                              │                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+❯ /clear 
+  ⎿  (no content)
+
+❯ We’ll be editing the index.html file in this directory. Please make the   
+  following edits:                                                          
+                                                                            
+  Before the “what we offer” section, add a section for this text:          
+  Heading: “What’s Quarter Corner?”                                         
+  Body: “Quarter Corner is an art cafe where warm, comforting food meets    
+  quiet creativity. Pull up a patchwork armchair, order something cozy, and 
+  sketch, doodle, or paint on our found furniture tables — or at a proper   
+  easel if you need one. We serve honest, feel-good bites and drinks in a   
+  relaxed, friendly space designed to inspire.”                             
+                                                                            
+  Image replacements:                                                       
+  - coffee-latte.svg becomes latte.jpg                                      
+  - pastries.svg becomes muffins.jpg                                        
+  - art-supplies.svg becomes art-supply-table.jpg                           
+  - cafe-interior.svg becomes cozy-space.jpg                                
+                                                                            
+  Footer:                                                                   
+  Across all pages - change business address to “777 Sweet Street, Avia, RY 
+  23456”                                                                    
+
+● Let me read the index.html file first.
+
+● Read(index.html)
+  ⎿  Read 159 lines
+
+● I'll make all the edits to index.html. Let me also check for other HTML pages
+  that need the footer update.
+
+● Update(index.html)
+  ⎿  Added 8 lines
+      38        </div>
+      39      </section>
+      40  
+      41 +    <!-- What's Quarter Corner Section -->                     
+      42 +    <section>                                                  
+      43 +      <div class="container">                                  
+      44 +        <h2 style="text-align: center; font-size: 2rem; margin-
+         +bottom: 0.5rem;">What's Quarter Corner?</h2>                   
+      45 +        <p style="text-align: center; color: var(--brown); marg
+         +in-bottom: 2rem; max-width: 800px; margin-left: auto; margin-ri
+         +ght: auto;">Quarter Corner is an art cafe where warm, comfortin
+         +g food meets quiet creativity. Pull up a patchwork armchair, or
+         +der something cozy, and sketch, doodle, or paint on our found f
+         +urniture tables — or at a proper easel if you need one. We serv
+         +e honest, feel-good bites and drinks in a relaxed, friendly spa
+         +ce designed to inspire.</p>                                    
+      46 +      </div>                                                   
+      47 +    </section>                                                 
+      48 +                                                               
+      49      <!-- Featured Section -->
+      50      <section>
+      51        <div class="container">
+
+● Update(index.html)
+  ⎿  Added 1 line, removed 1 line
+      55          <div class="featured">
+      56            <div class="featured-card">
+      57              <div class="image-placeholder">
+      58 -              <img src="images/coffee-latte.svg" alt="Artisan l
+         -atte with latte art">                                          
+      58 +              <img src="images/latte.jpg" alt="Artisan latte wi
+         +th latte art">                                                 
+      59              </div>
+      60              <div class="featured-card-content">
+      61                <h3>Artisan Coffee</h3>
+
+● Update(index.html)
+  ⎿  Added 1 line, removed 1 line
+      65  
+      66            <div class="featured-card">
+      67              <div class="image-placeholder">
+      68 -              <img src="images/pastries.svg" alt="Fresh baked p
+         -astries display">                                              
+      68 +              <img src="images/muffins.jpg" alt="Fresh baked pa
+         +stries display">                                               
+      69              </div>
+      70              <div class="featured-card-content">
+      71                <h3>Fresh Pastries</h3>
+
+● Update(index.html)
+  ⎿  Added 1 line, removed 1 line
+      75  
+      76            <div class="featured-card">
+      77              <div class="image-placeholder">
+      78 -              <img src="images/art-supplies.svg" alt="Art suppl
+         -ies and creative workspace">                                   
+      78 +              <img src="images/art-supply-table.jpg" alt="Art s
+         +upplies and creative workspace">                               
+      79              </div>
+      80              <div class="featured-card-content">
+      81                <h3>Creative Space</h3>
+
+● Update(index.html)
+  ⎿  Added 1 line, removed 1 line
+      91        <div class="container">
+      92          <div class="about-preview">
+      93            <div class="image-placeholder">
+      94 -            <img src="images/cafe-interior.svg" alt="Cozy cafe 
+         -interior with artwork on walls">                               
+      94 +            <img src="images/cozy-space.jpg" alt="Cozy cafe int
+         +erior with artwork on walls">                                  
+      95            </div>
+      96            <div>
+      97              <h2>A Corner for Every Creative</h2>
+
+● Update(index.html)
+  ⎿  Added 2 lines, removed 2 lines
+      142          </div>
+      143          <div class="footer-section">
+      144            <h3>Contact</h3>
+      145 -          <p>123 Canvas Street</p>                            
+      146 -          <p>Artville, CA 90210</p>                           
+      145 +          <p>777 Sweet Street</p>                             
+      146 +          <p>Avia, RY 23456</p>                               
+      147            <p>hello@quartercorner.com</p>
+      148          </div>
+      149        </div>
+
+● Search(pattern: "*.html")
+  ⎿  Found 4 files (ctrl+o to expand)
+
+● Now let me update the footer address in the other pages.
+
+● Read(menu.html)
+  ⎿  Read 243 lines
+
+● Read(about.html)
+  ⎿  Read 190 lines
+
+● Read(contact.html)
+  ⎿  Read 207 lines
+
+● Now I'll update the footer addresses in all three files, plus the contact info
+   section in contact.html.
+
+● Update(menu.html)
+  ⎿  Added 2 lines, removed 2 lines
+      220          </div>
+      221          <div class="footer-section">
+      222            <h3>Contact</h3>
+      223 -          <p>123 Canvas Street</p>                            
+      224 -          <p>Artville, CA 90210</p>                           
+      223 +          <p>777 Sweet Street</p>                             
+      224 +          <p>Avia, RY 23456</p>                               
+      225            <p>hello@quartercorner.com</p>
+      226          </div>
+      227        </div>
+
+● Update(about.html)
+  ⎿  Added 2 lines, removed 2 lines
+      167          </div>
+      168          <div class="footer-section">
+      169            <h3>Contact</h3>
+      170 -          <p>123 Canvas Street</p>                            
+      171 -          <p>Artville, CA 90210</p>                           
+      170 +          <p>777 Sweet Street</p>                             
+      171 +          <p>Avia, RY 23456</p>                               
+      172            <p>hello@quartercorner.com</p>
+      173          </div>
+      174        </div>
+
+● Update(contact.html)
+  ⎿  Added 1 line, removed 1 line
+      49                <div class="contact-icon">&#128205;</div>
+      50                <div>
+      51                  <h3>Address</h3>
+      52 -                <p>123 Canvas Street<br>Artville, CA 90210</p> 
+      52 +                <p>777 Sweet Street<br>Avia, RY 23456</p>      
+      53                </div>
+      54              </div>
+      55  
+
+● Update(contact.html)
+  ⎿  Added 2 lines, removed 2 lines
+      184          </div>
+      185          <div class="footer-section">
+      186            <h3>Contact</h3>
+      187 -          <p>123 Canvas Street</p>                            
+      188 -          <p>Artville, CA 90210</p>                           
+      187 +          <p>777 Sweet Street</p>                             
+      188 +          <p>Avia, RY 23456</p>                               
+      189            <p>hello@quartercorner.com</p>
+      190          </div>
+      191        </div>
+
+● Done. Here's a summary of all the changes made:
+
+  index.html:
+  - Added new "What's Quarter Corner?" section before "What We Offer"
+  - Changed coffee-latte.svg to latte.jpg
+  - Changed pastries.svg to muffins.jpg
+  - Changed art-supplies.svg to art-supply-table.jpg
+  - Changed cafe-interior.svg to cozy-space.jpg
+  - Updated footer address to "777 Sweet Street, Avia, RY 23456"
+
+  menu.html, about.html, contact.html:
+  - Updated footer address to "777 Sweet Street, Avia, RY 23456"
+
+  contact.html (additional):
+  - Also updated the address in the "Visit Us" contact info section
+
+✻ Worked for 59s
