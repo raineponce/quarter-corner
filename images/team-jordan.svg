@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="350" viewBox="0 0 400 350">
+  <rect fill="#7b8f6d" width="400" height="350"/>
+  <circle cx="200" cy="130" r="70" fill="#8b6b4a"/>
+  <ellipse cx="200" cy="75" rx="50" ry="30" fill="#1a1918"/>
+  <circle cx="180" cy="120" r="6" fill="#1a1918"/>
+  <circle cx="220" cy="120" r="6" fill="#1a1918"/>
+  <path d="M185 150 Q200 165 215 150" fill="none" stroke="#6b4b3a" stroke-width="3"/>
+  <rect x="160" y="200" width="80" height="100" fill="#4f3b2f" rx="5"/>
+  <rect x="280" y="180" width="60" height="80" fill="#faf7f5" stroke="#4f3b2f" stroke-width="3"/>
+  <text x="200" y="330" font-family="Georgia, serif" font-size="18" fill="#faf7f5" text-anchor="middle">Jordan Osei</text>
+</svg>
