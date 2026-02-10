@@ -151,7 +151,10 @@ section {
 
 /* ===== Hero Section ===== */
 .hero {
-  background-color: var(--dark-brown);
+  background-image: linear-gradient(rgba(26, 25, 24, 0.6), rgba(26, 25, 24, 0.6)), url('../images/pro_20260210_032257_1_1_5cbf3e07.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: var(--off-white);
   padding: 5rem 0;
   text-align: center;
