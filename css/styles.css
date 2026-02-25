@@ -8,12 +8,22 @@
 }
 
 :root {
+  /* ===== Color Palette ===== */
   --black: #1a1918;
   --off-white: #faf7f5;
   --dark-brown: #4f3b2f;
   --brown: #8f7768;
   --sage-green: #7b8f6d;
 
+  /* ===== Theme Variables (Light Mode Defaults) ===== */
+  --color-bg: var(--off-white);
+  --color-surface: #ffffff;
+  --color-text: var(--black);
+  --color-text-muted: var(--brown);
+  --color-heading: var(--dark-brown);
+  --color-header-bg: var(--off-white);
+
+  /* ===== Typography ===== */
   --font-heading: 'Young Serif', serif;
   --font-body: 'Poppins', sans-serif;
 }
@@ -24,17 +34,22 @@ html {
 
 body {
   font-family: var(--font-body);
-  background-color: var(--off-white);
-  color: var(--black);
+  background-color: var(--color-bg);
+  color: var(--color-text);
   line-height: 1.6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
-  color: var(--dark-brown);
+  color: var(--color-heading);
   line-height: 1.2;
 }
 
@@ -56,7 +71,7 @@ ul {
 
 /* ===== Header & Navigation ===== */
 .header {
-  background-color: var(--off-white);
+  background-color: var(--color-header-bg);
   border-bottom: 1px solid var(--brown);
   position: sticky;
   top: 0;
@@ -99,6 +114,26 @@ ul {
   background-color: var(--dark-brown);
   border-radius: 2px;
   transition: all 0.3s ease;
+}
+
+.theme-toggle {
+  background: none;
+  border: 2px solid var(--brown);
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+  border-color: var(--sage-green);
+  background-color: rgba(123, 143, 109, 0.1);
 }
 
 .nav-menu {
@@ -247,7 +282,7 @@ section {
 }
 
 .featured-card {
-  background-color: white;
+  background-color: var(--color-surface);
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(26, 25, 24, 0.08);
@@ -273,7 +308,7 @@ section {
 }
 
 .featured-card p {
-  color: var(--brown);
+  color: var(--color-text-muted);
   font-size: 0.95rem;
 }
 
@@ -296,7 +331,7 @@ section {
 
 .about-preview p {
   margin-bottom: 1.5rem;
-  color: var(--brown);
+  color: var(--color-text-muted);
 }
 
 /* ===== Menu Styles ===== */
@@ -335,7 +370,7 @@ section {
 }
 
 .menu-item {
-  background-color: white;
+  background-color: var(--color-surface);
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(26, 25, 24, 0.06);
@@ -359,7 +394,7 @@ section {
 }
 
 .menu-item p {
-  color: var(--brown);
+  color: var(--color-text-muted);
   font-size: 0.9rem;
 }
 
@@ -386,7 +421,7 @@ section {
   direction: rtl;
 }
 
-.about-content.reverse > * {
+.about-content.reverse>* {
   direction: ltr;
 }
 
@@ -396,7 +431,7 @@ section {
 }
 
 .about-text p {
-  color: var(--brown);
+  color: var(--color-text-muted);
   margin-bottom: 1rem;
 }
 
@@ -414,7 +449,7 @@ section {
 .value-card {
   text-align: center;
   padding: 2rem;
-  background-color: white;
+  background-color: var(--color-surface);
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(26, 25, 24, 0.06);
 }
@@ -436,7 +471,7 @@ section {
 }
 
 .value-card p {
-  color: var(--brown);
+  color: var(--color-text-muted);
   font-size: 0.9rem;
 }
 
@@ -476,12 +511,12 @@ section {
 }
 
 .contact-item p {
-  color: var(--brown);
+  color: var(--color-text-muted);
   font-size: 0.9rem;
 }
 
 .contact-form {
-  background-color: white;
+  background-color: var(--color-surface);
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(26, 25, 24, 0.08);
@@ -500,7 +535,7 @@ section {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 500;
-  color: var(--dark-brown);
+  color: var(--color-heading);
 }
 
 .form-group input,
@@ -616,7 +651,7 @@ section {
     top: 100%;
     left: 0;
     right: 0;
-    background-color: var(--off-white);
+    background-color: var(--color-header-bg);
     flex-direction: column;
     gap: 0;
     padding: 0;
@@ -710,4 +745,14 @@ section {
   .social-links {
     justify-content: center;
   }
+}
+
+/* ===== Dark Mode ===== */
+body.dark-mode {
+  --color-bg: #1e1c1b;
+  --color-surface: #2c2826;
+  --color-text: var(--off-white);
+  --color-text-muted: #b8a094;
+  --color-heading: #e0d0c8;
+  --color-header-bg: #1a1816;
 }
