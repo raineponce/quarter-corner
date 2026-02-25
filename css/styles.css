@@ -32,6 +32,29 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ===== Theme Transitions ===== */
+/* Suppress all transitions during page load to prevent flash when restoring saved theme */
+body.preload,
+body.preload * {
+  transition: none !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+  body,
+  .header,
+  .nav-menu,
+  .featured-card,
+  .menu-item,
+  .value-card,
+  .contact-form,
+  .form-group input,
+  .form-group textarea,
+  .theme-toggle {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+}
+
 body {
   font-family: var(--font-body);
   background-color: var(--color-bg);
@@ -90,7 +113,7 @@ ul {
 .logo {
   font-family: var(--font-heading);
   font-size: 1.5rem;
-  color: var(--dark-brown);
+  color: var(--color-heading);
 }
 
 .logo span {
@@ -143,7 +166,7 @@ ul {
 
 .nav-menu a {
   font-size: 0.95rem;
-  color: var(--dark-brown);
+  color: var(--color-heading);
   padding: 0.5rem 0;
   position: relative;
 }
@@ -167,6 +190,13 @@ ul {
 .nav-menu a:hover,
 .nav-menu a.active {
   color: var(--sage-green);
+}
+
+/* ===== Section Surface ===== */
+/* Replaces inline style="background-color: white" so dark mode can override it */
+.section-surface {
+  background-color: var(--color-surface);
+  transition: background-color 0.3s ease;
 }
 
 /* ===== Main Content ===== */
@@ -286,7 +316,7 @@ section {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(26, 25, 24, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .featured-card:hover {
@@ -755,4 +785,43 @@ body.dark-mode {
   --color-text-muted: #b8a094;
   --color-heading: #e0d0c8;
   --color-header-bg: #1a1816;
+}
+
+/* Hamburger bars: dark-brown is invisible on a dark background */
+body.dark-mode .nav-toggle span {
+  background-color: var(--off-white);
+}
+
+/* Shadows: light-tinted rgba looks wrong on dark surfaces */
+body.dark-mode .featured-card {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .featured-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.55);
+}
+
+body.dark-mode .menu-item {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+}
+
+body.dark-mode .value-card {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+}
+
+body.dark-mode .contact-form {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Form inputs: browser default white background bleeds through */
+body.dark-mode .form-group input,
+body.dark-mode .form-group textarea {
+  background-color: #3a3330;
+  color: var(--off-white);
+  border-color: #6b5a52;
+}
+
+body.dark-mode .form-group input::placeholder,
+body.dark-mode .form-group textarea::placeholder {
+  color: #a08878;
 }

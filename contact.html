@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | Quarter Corner</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Young+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Young+Serif&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
   <!-- Header -->
   <header class="header">
@@ -25,6 +28,9 @@
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+        <span class="theme-toggle-icon">🌙</span>
+      </button>
     </nav>
   </header>
 
@@ -112,7 +118,7 @@
     </section>
 
     <!-- Additional Info -->
-    <section style="background-color: white;">
+    <section class="section-surface">
       <div class="container">
         <div class="about-content">
           <div class="image-placeholder" style="height: 300px;">
@@ -120,9 +126,12 @@
           </div>
           <div class="about-text">
             <h2>Finding Us</h2>
-            <p>We're located on the corner of Canvas Street and Palette Avenue, just two blocks from the Artville Metro Station. Look for the sage green awning and the mural of coffee cups on our exterior wall.</p>
-            <p><strong>Parking:</strong> Street parking is available, and there's a public lot behind the building with 2-hour free parking.</p>
-            <p><strong>Accessibility:</strong> Our cafe is fully wheelchair accessible with an accessible restroom. Service animals are always welcome.</p>
+            <p>We're located on the corner of Canvas Street and Palette Avenue, just two blocks from the Artville Metro
+              Station. Look for the sage green awning and the mural of coffee cups on our exterior wall.</p>
+            <p><strong>Parking:</strong> Street parking is available, and there's a public lot behind the building with
+              2-hour free parking.</p>
+            <p><strong>Accessibility:</strong> Our cafe is fully wheelchair accessible with an accessible restroom.
+              Service animals are always welcome.</p>
           </div>
         </div>
       </div>
@@ -136,7 +145,8 @@
         <div class="menu-grid">
           <div class="menu-item">
             <h3 style="margin-bottom: 0.5rem;">Do you take reservations?</h3>
-            <p>We operate on a first-come, first-served basis for regular seating. For private events or large groups (8+), please contact us in advance.</p>
+            <p>We operate on a first-come, first-served basis for regular seating. For private events or large groups
+              (8+), please contact us in advance.</p>
           </div>
           <div class="menu-item">
             <h3 style="margin-bottom: 0.5rem;">Is there WiFi?</h3>
@@ -144,7 +154,8 @@
           </div>
           <div class="menu-item">
             <h3 style="margin-bottom: 0.5rem;">Can I host an event here?</h3>
-            <p>We love hosting creative events! From birthday parties to book clubs, reach out to discuss your vision.</p>
+            <p>We love hosting creative events! From birthday parties to book clubs, reach out to discuss your vision.
+            </p>
           </div>
           <div class="menu-item">
             <h3 style="margin-bottom: 0.5rem;">Do you sell your coffee beans?</h3>
@@ -202,5 +213,7 @@
       navMenu.classList.toggle('active');
     });
   </script>
+  <script src="script.js"></script>
 </body>
+
 </html>

@@ -28,6 +28,9 @@
         <li><a href="about.html" class="active">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+        <span class="theme-toggle-icon">🌙</span>
+      </button>
     </nav>
   </header>
 
@@ -62,7 +65,7 @@
     </section>
 
     <!-- Mission Section -->
-    <section style="background-color: white;">
+    <section class="section-surface">
       <div class="container">
         <div class="about-content reverse">
           <div class="about-text">
@@ -124,7 +127,7 @@
     </section>
 
     <!-- Team Section -->
-    <section style="background-color: white;">
+    <section class="section-surface">
       <div class="container">
         <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem;">Meet the Team</h2>
 
@@ -211,6 +214,7 @@
       navMenu.classList.toggle('active');
     });
   </script>
+  <script src="script.js"></script>
 </body>
 
 </html>
